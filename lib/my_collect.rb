@@ -8,6 +8,6 @@ def my_collect(arr)
     i = i+1
    new_arr
   end
-
+new_arr
 end
 
