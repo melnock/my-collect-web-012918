@@ -3,9 +3,11 @@ def my_collect(arr)
     new_arr = []
   while i<arr.length
 
-    yield new_arr << arr[i]
+    yield arr[i]
+       new_arr << arr [i]
     i = i+1
+   new_arr
   end
-  new_arr
+
 end
 
